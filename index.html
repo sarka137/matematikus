@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematikus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Matematikus</h1>
+    <form>
+    <p>
+        <label for="x">x:</label>
+        <input type="text" id="x" name="x" value="0">
+    </p>
+    <p>
+        <label for="y">y:</label>
+        <input type="text" id="y" name="y" value="0">
+    </p>
+    <p>
+        <label for="funkce">Výběr funkcí</label>
+        <select name="funkce" id="funkce">
+            <option value="randomNum">Náhodné číslo mezi X a Y</option>
+            <option value="sum">Součet X + Y</option>
+        </select>
+    </p>
+    <p>
+        <button type="button" id="proved">Proveď funkci</button>
+    </p>
+    </form>
+    <div id="vysledek">Tady bude (možná) výsledek.</div>
+    <script src="app.js"></script>
+</body>
+</html>
